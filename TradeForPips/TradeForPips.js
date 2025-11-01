@@ -138,15 +138,15 @@ window.addEventListener('DOMContentLoaded', function() {
   
   // Join button handlers (opens Telegram)
   document.getElementById('joinBtn').addEventListener('click', function() {
-    window.open('https://t.me/tradeforpips', '_blank');
+    window.open('https://t.me/tradeforpipschannel', '_blank');
   });
   
   document.getElementById('joinBtn2').addEventListener('click', function() {
-    window.open('https://t.me/tradeforpips', '_blank');
+    window.open('https://t.me/tradeforpipschannel', '_blank');
   });
   
   document.getElementById('joinBtn3').addEventListener('click', function() {
-    window.open('https://t.me/tradeforpips', '_blank');
+    window.open('https://t.me/tradeforpipschannel', '_blank');
   });
   
   // "What Others Are Saying" button - scrolls to testimonials
@@ -155,3 +155,4 @@ window.addEventListener('DOMContentLoaded', function() {
   // Set current year in footer
   document.getElementById('year').textContent = new Date().getFullYear();
 });
+
